@@ -1,0 +1,14 @@
+HTML comments has various purposes:
+1. HTML comments can be used to define the functionality or purpose of certain block of codes.
+2. HTML comments enhances the code redability.
+3. HTML comments also helps in testing by troubleshooting or temporarily disabling sections of without deleting them.
+4. HTML comments can also helps in indication or reminder of future modifications.
+
+Example of how to use comments:
+
+let's take an example that i want to add an information about h1 for my understanding but i don't want to render it on broswer so i use HTML comments.
+
+<!-- This is h1, it contains main heading. -->
+<h1>Getting started with HTML</h1>
+
+Note: If we have to use multi line comments we can used it in same way.

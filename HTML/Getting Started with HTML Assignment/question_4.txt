@@ -1,0 +1,16 @@
+Tag:
+* Tags are the building blocks of the HTML document that are used to define structure and layout of web pages.
+* Tags consists angle brackets with specific keywords enclosed.
+
+Example: <tagname> (opening tag)
+         </tagname> (closing tag)
+
+<h1> Heading Tag </h1> (here h1 is a tag).
+
+
+Element:
+* HTML Elements are conceptual unit that represents the part of HTML document.
+* HTML Elements are the building blocks of HTML document consists of start tag and in some cases end tag with content in between the tags.
+
+Example: 
+<p> This is a Paragraph </p>  (here this whole line is called as an element.)

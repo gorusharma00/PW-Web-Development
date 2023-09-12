@@ -1,0 +1,4 @@
+DOCTYPE declaration in HTML represents the document type and helps the browsers to display web pages correctly.
+
+Example: <!DOCTYPE html> , Here DOCTYPE represents that it is a HTML document.
+
