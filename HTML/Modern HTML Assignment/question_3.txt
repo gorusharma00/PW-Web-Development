@@ -1,0 +1,14 @@
+Accessibility:
+-> Accessibility in HTML means practice of making your websites usable by as many people as possible.
+-> It helps the people with disability and those who use mobile or slow internet connections.
+
+Why it is essential to create accessible website?
+Ans-> It can help you to identify accessibility issues in your web application or websites before users facing it.
+-> It can help to ensure that our website has accessibility standards.
+-> It can help to improve the usability.
+
+Benefits of accessibility:
+-> Accessibility enhances the user experience for all.
+-> Web accessibility can lead to improve the Search Engine Optimization(SEO)
+-> Web pages designed with accessibility in mind are easier to maintain and update.
+-> It extends the websites audience to include people with disabilities.

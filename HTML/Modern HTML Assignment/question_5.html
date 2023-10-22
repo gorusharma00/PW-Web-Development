@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Question_5</title>
+  </head>
+  <body>
+    <!-- Header -->
+    <header>
+      <h1>Features of HTML 5:</h1>
+      <h2>1.Nav Tag:</h2>
+      <p>
+        &bull; HTML 5 introduced the nav tag used for declaring the navigation
+        sections on a web page.It is used for the part of an internet site that
+        links to different pages at the website.
+      </p>
+      <h3>Example of Nav Tag:</h3>
+      <nav>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Services</a></li>
+        </ul>
+      </nav>
+    </header>
+    <!-- main content -->
+    <main>
+      <!-- section  -->
+      <section>
+        <h2>2.Intro of audio and video:</h2>
+        <p>
+          &bull; Audio and Video tags are two major addition to HTML 5. It
+          allows the developers to embed a video or audio on their website.
+        </p>
+        <h3>Example of audio and video:</h3>
+        <audio src="./sample audio.mp3" controls></audio> <br />
+        <br />
+        <video src="./sample video.mp4" controls width="250"></video>
+      </section>
+
+      <!-- article  -->
+      <article>
+        <h2>3.Form Enhancements</h2>
+        <p>
+          &bull; HTML 5 introduces new features for your existing forms on HTML
+          to create a more robust user experience. Some of the key enhancements
+          in the new HTML 5 include new input times such as email, URL, and
+          more, placeholder text, required fields feature, validation, and more.
+        </p>
+        <h3>Examples:</h3>
+        <form action="#" method="get">
+          <label for="Email">Email Attribute:</label>
+          <input type="email" placeholder="Enter your Email" />
+          <br />
+          <br />
+          <label for="placeholder">Placeholder Attribute:</label>
+          <input type="text" placeholder="Example of Placeholder" />
+          <br />
+          <br />
+          <label for="required"
+            >This is required attribute. Try to submit by leaving it
+            blank:</label
+          >
+          <input
+            type="text"
+            name="required"
+            id="required"
+            placeholder="Required Attribute"
+            required
+          />
+          <br />
+          <input type="submit" />
+        </form>
+      </article>
+
+      <article>
+        <h2>4.Progress Tag:</h2>
+        <p>
+          &bull; The progress tag is used to check the progress of a task during
+          the execution. Progress tag can be used with the conjunction of
+          JavaScript.
+        </p>
+        <h3>Example:</h3>
+        <label for="file">Downloading Progress:</label>
+        <progress id="file" value="50" max="100">50%</progress>
+      </article>
+    </main>
+
+    <!-- Footer  -->
+    <h2>5.Footer:</h2>
+    <p>
+      &bull; There is no longer need to verify the footer element with a div
+      tag. Footer is placed at the end of web apge while header is placed at the
+      start of the web page.
+    </p>
+    <h3>Example:</h3>
+    <footer>
+      <p>&copy; 2023 Example Company. All rights reserved.</p>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,5 @@
+Ways of improving the accessibility of HTML:
+
+-> By using Semantic HTML means using the correct HTML for the correct purpose, which improves the SEO making your site more findable.
+-> By using the good alternative texts, value of the alt attribute should describe the image such that the content is meaningful even if the image fails to load.
+-> By using the descriptive link text, HTML link text should clearly explain what information the reader will get by clicking on it.

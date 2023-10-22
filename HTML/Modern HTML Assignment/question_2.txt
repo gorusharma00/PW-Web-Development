@@ -1,0 +1,12 @@
+HTML Entities:
+-> The reserved characters used in HTML documents are known as HTML entities.
+-> HTML entities are useful when you want to display special characters that may conflict with HTML syntax.
+
+Common HTML entities are:
+
+-> &(ampersand)   entitiy name= &amp;
+-> <(less than)   entitiy name= &lt;
+-> >(greater than)  entitiy name= &gt;
+-> ©(copyright)     entitiy name= &copy;
+-> "(double quotation mark)  entitiy name= &quot;
+-> '(apostrophe)   entitiy name= &apos;
