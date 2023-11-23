@@ -1,0 +1,8 @@
+# Difference between Absolute and Relative Positioning.
+
+Absolute Positioning:
+-> Absolute positioning refers to positioning an element relative to its nearest positioned ancestor means the nearest parent element with a position value of relative, absolute, or fixed.
+
+Relative Positioning:
+-> Relative positioning refers to positioning an element relative to its default position on the page. When an element is positioned relatively, it will still take up space in the normal flow of the page, but it can be shifted in any direction (up, down, left, right) from its original position. 
+-> And this shift does not affect siblings or any other elements on the page.
