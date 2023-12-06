@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    background-color: #000;
+    color: #fff;
+}
+
+.navbar a{
+    color: #fff;
+    font-size: 1em;
+    padding: 10px;
+    text-decoration: none;
+}
+
+@media screen and (max-width: 768px){
+    .navbar{
+        flex-direction: column;
+        background-color: #808080;
+    }
+}
+

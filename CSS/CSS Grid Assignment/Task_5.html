@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task-5</title>
+    <style>
+        .container{
+            display: grid;
+            height: 200px;
+            width: 400px;
+            border: 2px solid #e63946;
+            
+        }
+
+        .box{
+            height: 100px;
+            width: 150px;
+            background-color: #457b9d;
+            justify-self: center;
+            color: #ffb703;
+        }
+
+        .container-2{
+            display: grid;
+            height: 200px;
+            width: 400px;
+            border: 2px solid #e63946;
+            justify-items: end;
+        }
+        .box-2{
+            height: 100px;
+            width: 150px;
+            background-color: #457b9d;
+            color: #ffb703;
+        }
+    </style>
+</head>
+<body>
+    <h2>Justify Self</h2>
+    <p>The CSS justify-self property sets the way a box is justified inside its alignment container along the appropriate axis.</p>
+    <div class="container">
+        <div class="box">Justify-self = center</div> 
+    </div>
+
+    <h2>Justify Items</h2>
+    <p>The CSS justify-items property defines the default justify-self for all items of the box, giving them all a default way of justifying each box along the appropriate axis.</p>
+    <div class="container-2">
+        <div class="box-2">Justify-items = end</div>
+    </div>
+</body>
+</html>

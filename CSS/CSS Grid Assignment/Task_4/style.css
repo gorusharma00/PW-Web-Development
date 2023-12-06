@@ -1,0 +1,54 @@
+body{
+    margin: 40px;
+}
+
+.container{
+    width: 400px;
+    display: grid;
+    grid-template-columns: repeat(6, 200px);
+    grid-template-rows: 100px 100px;
+    grid-gap: 10px;
+}
+
+.box{
+    color: #fff;
+    border-radius: 5px;
+    padding: 20px;
+    background-color: #444444;
+    font-size: 150%;
+}
+
+.box:nth-child(even){
+    background-color:#ccc;
+    color: #000;
+}
+
+.box3{
+    order: 1;
+}
+
+.box4{
+    order: 2;
+}
+
+.box5{
+    order: 3;
+}
+
+.box6{
+    order: 4;
+}
+
+.box7{
+    order: 5;
+}
+
+.box8{
+    order: 6;
+}
+.box1{
+    order: 7;
+}
+.box2{
+    order: 8;
+}

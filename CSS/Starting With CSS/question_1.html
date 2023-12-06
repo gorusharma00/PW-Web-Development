@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Question_1</title>
+    <link rel="stylesheet" href="./question_1.css">
+    <style>
+        *{
+            margin-left: 3px;
+        }
+
+        .internal, .inline, .external{
+            font-size: 25px;
+            font-weight: 400;
+        }
+
+        pre{
+            
+            font-family: cursive;
+        }
+
+        #example{
+            background-color: #d90960;
+        }
+
+    </style>
+  </head>
+  <body>
+    <h1 style="font-size: 28px;">There are three ways to add CSS:</h1>
+
+    <!-- inline css -->
+    <div class="inline">1.Inline CSS</div>
+    <p class="inline-explain">
+      Inline CSS involves using the style attribute to apply specific styles directly to an HTML element. This means that the styles are defined withi the element's opening tag, allowing you to add a unique look and feel to that particular element without the need for a separate CSS file or style element in the document.
+    </p>
+
+    <!-- internal css -->
+    <div class="internal">2.Internal CSS</div>
+    <p class="internal-explain">Internal CSS, also known as embedded CSS or style tag CSS, allows you to define CSS rules directly within the HTML document itself. n. This approach provides a more localized and self-contained solution for applying styles to specific elements on the page.</p>
+
+    <!-- external css  -->
+    <div class="external">3.External CSS</div>
+    <p class="external-explain">External CSS is a widely-used method of styling HTML documents. It involves creating a separate CSS file that contains all the styles for a website. This file is then linked to the HTML file.</p>
+
+    <!-- What happen all three applied on same element -->
+    <h2 style="font-size: 24px;">If all three CSS applied on same element then:</h2>
+    <p>If there are two or more CSS rules that point to the same element, the selector with the highest specificity value will "win", and its style declaration will be applied to that HTML element.</p>
+
+    <pre>
+    Cascading Order:
+    1. Inline CSS (Highest Specificity)
+    2. Internal CSS
+    3. External CSS (Lowest Specificity)
+    </pre>
+
+    <!-- example -->
+    <span style="font-weight: bold;">Example:</span>
+    <div id="example" style="background-color: aqua; display: inline-block;">On this line all three CSS is applied, but it reflecting only inline because it has high specificity.</div>
+    
+  </body>
+</html>

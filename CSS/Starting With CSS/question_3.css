@@ -1,0 +1,27 @@
+* {
+    text-align: center;
+    margin-top: 7px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    background-color: lightblue;
+}
+
+.first_name{
+    background-color: rgba(0, 255, 255, 0.5);
+}
+
+.last_name{
+    background-color: burlywood;
+}
+
+#email{
+    background-color: honeydew;
+}
+
+button{
+    font-size: 20px;
+    color:white;
+    background-color:crimson;
+    padding: 10px 10px;
+    opacity: 80%;
+}

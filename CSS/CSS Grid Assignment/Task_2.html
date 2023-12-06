@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task-2</title>
+    <style>
+        .container{
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-template-rows: repeat(2, 1fr);
+            grid-gap: 10px;
+            height: 250px;
+            width: 25%;
+            margin: 40px 40px;
+        }
+        .box{
+            background-color: #ffe4c4;
+            border-radius: 7px;
+            padding: 22px 31px;
+            font-size: 130%;
+        }
+
+        .box-A{
+            grid-column: span 2;
+        }
+
+        .box-B{
+            grid-row: span 2;
+        }
+
+        .box-C{
+            grid-column: 1/2;
+        }
+
+        .box-D{
+            grid-column: 2/3;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box box-A">A</div>
+        <div class="box box-B">B</div>
+        <div class="box box-C">C</div>
+        <div class="box box-D">D</div>
+    </div>
+</body>
+</html>
