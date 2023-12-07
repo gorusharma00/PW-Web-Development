@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Define Favicon:
 -> A favicon (favourite icon) is a tiny icon included along with a website which is displayed in places like the browser's address bar, page tabs and bookmarks menu.
 -> A favicon is usually 16 * 16 pixels in size, and stored in format of GIF, PNG and ICO.
@@ -7,4 +8,15 @@ Example:
 -> First we have to create the most suitable favicon for our site, we can create it online on many sites.
 -> Then we have to save that image in most suitable format like GIF, PNG etc.
 -> After that we can add the favicon image using link tag.
+=======
+Define Favicon:
+-> A favicon (favourite icon) is a tiny icon included along with a website which is displayed in places like the browser's address bar, page tabs and bookmarks menu.
+-> A favicon is usually 16 * 16 pixels in size, and stored in format of GIF, PNG and ICO.
+-> They are used to improve the users experience.
+
+Example:
+-> First we have to create the most suitable favicon for our site, we can create it online on many sites.
+-> Then we have to save that image in most suitable format like GIF, PNG etc.
+-> After that we can add the favicon image using link tag.
+>>>>>>> 02dffc735773b1e322e0467c49946a24184415ef
 -> <link rel="icon" href="image/favicon.ico" /> 

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .container{
     position: relative;
 }
@@ -43,4 +44,51 @@
     height: 111px;
     width: 382px;
     text-align: center;
+=======
+.container{
+    position: relative;
+}
+
+.box1{
+    position: relative;
+    top: 94px;
+    left: 343px;
+    width: 600px;
+    height: 100px;
+    background-color: brown;
+    z-index: 1;
+    text-align: center;
+}
+
+.box2{
+    position: relative;
+    background-color: chartreuse;
+    z-index: 2;
+    top: -22px;
+    right: -753px;
+    height: 168px;
+    width: 75px;
+}
+
+.box3{
+    position: relative;
+    background-color:darkkhaki;
+    z-index: 0;
+    top: -149px;
+    left: 684px;
+    height: 111px;
+    width: 323px;
+    text-align: right;
+}
+
+.box4{
+    position: relative;
+    background-color:darksalmon;
+    z-index: 3;
+    top: -227px;
+    left: 684px;
+    height: 111px;
+    width: 382px;
+    text-align: center;
+>>>>>>> 02dffc735773b1e322e0467c49946a24184415ef
 }

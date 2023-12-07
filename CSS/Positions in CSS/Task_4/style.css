@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Nunito+Sans:opsz,wght@6..12,300;6..12,400&family=Open+Sans:wght@500&family=Oswald:wght@500;700&family=Poppins:ital,wght@0,400;1,100&family=Ubuntu:ital,wght@1,300&display=swap');
 
 @import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&family=Nunito+Sans:opsz,wght@6..12,300;6..12,400&family=Open+Sans:wght@500&family=Oswald:wght@500;700&family=Poppins:ital,wght@0,400;1,100&family=Ubuntu:ital,wght@1,300&display=swap');
@@ -68,3 +69,75 @@ p{
     padding: 8px;
     text-align: justify;
 }
+=======
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Nunito+Sans:opsz,wght@6..12,300;6..12,400&family=Open+Sans:wght@500&family=Oswald:wght@500;700&family=Poppins:ital,wght@0,400;1,100&family=Ubuntu:ital,wght@1,300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&family=Nunito+Sans:opsz,wght@6..12,300;6..12,400&family=Open+Sans:wght@500&family=Oswald:wght@500;700&family=Poppins:ital,wght@0,400;1,100&family=Ubuntu:ital,wght@1,300&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+header{
+    position: sticky;
+    top: 0;
+}
+
+nav{
+    overflow: hidden;
+    width: 100%;
+    height: 68px;
+    background-color: #2d2920;  
+}
+
+nav a{
+    float: right;
+    display: block;
+    color:#524e45;
+    text-align: center;
+    text-decoration: none;
+    font-size: 17px;
+    padding: 24px 33px;
+    font-family: 'Caveat', cursive;
+}
+
+nav .logo{
+    float: left;
+    color: #c9c4c0;
+    font-size: 25px;
+    padding: 18px 15px;
+    font-family: 'Merriweather', serif;
+}
+
+.btn{
+    float: right;
+    margin: 15px 14px;
+    padding: 6px 10px;
+    background-color: transparent;
+    color:#a08f36;
+    border: 2px solid #a08f36;
+    border-radius: 10px;
+    font-family: cursive;
+    font-size: 18px;
+}
+
+nav a:hover{
+    color:#c9c4c0;
+}
+
+nav .home{
+    color:#c9c4c0;
+}
+
+h2{
+    font-family: 'Oswald', sans-serif;
+    padding: 8px;
+    
+}
+
+p{
+    font-family: 'Poppins', sans-serif;
+    padding: 8px;
+    text-align: justify;
+}
+>>>>>>> 02dffc735773b1e322e0467c49946a24184415ef

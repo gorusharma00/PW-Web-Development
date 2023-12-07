@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Benefits of using Meta tags:
 1.Meta tags provides relevancy
 -> Meta tags show search engines how relevant your page is to the user’s query. If you have a meta description tag and title which speaks directly to what the user is searching for, your rankings will improve as a byproduct of this.
@@ -12,4 +13,20 @@ Benefits of using Meta tags:
 ->  Meta tags like the open graph Protocol tags allow developers to control how web pages are displayed when shared on social media platforms like Facebook Twitter and LinkedIn. They define the title description and image that appear in social media posts  by making shared links more attractive and informative.
 
 5.Web Accessibility
+=======
+Benefits of using Meta tags:
+1.Meta tags provides relevancy
+-> Meta tags show search engines how relevant your page is to the user’s query. If you have a meta description tag and title which speaks directly to what the user is searching for, your rankings will improve as a byproduct of this.
+
+2.You save time without writing too much
+-> As meta tags are in the HTML of your website, they are not meant to be long copy. They need to be short and sweet. You do not want excessive amounts of code on your website. This is a benefit as you will not have to craft a lengthy message and have a copywriter create it over a long period of time. Meta tags should be minimal in length.
+
+3.They can be quickly implemented
+-> There is no need for keyword research and strategy with constant updates on your search engine optimisation as there are no keywords for meta tags. This means you’ll save time from carrying out long hours of keyword research just to know the ‘right’ keywords to add into your meta tags.
+
+4.Social Media Sharing
+->  Meta tags like the open graph Protocol tags allow developers to control how web pages are displayed when shared on social media platforms like Facebook Twitter and LinkedIn. They define the title description and image that appear in social media posts  by making shared links more attractive and informative.
+
+5.Web Accessibility
+>>>>>>> 02dffc735773b1e322e0467c49946a24184415ef
 -> Certain meta tags can improve web accessibility by providing additional information to assistive technologies by making it easier for users with disabilities to navigate and understand the content.

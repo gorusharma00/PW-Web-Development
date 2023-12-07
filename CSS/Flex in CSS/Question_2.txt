@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # justify-content:
 -> The justify-content property aligns the flexible container's items when the items do not use all available space on the main-axis (horizontally).
 
@@ -11,4 +12,19 @@
 -> It specifies the direction of the flexible items.
 
 # flex-wrap:
+=======
+# justify-content:
+-> The justify-content property aligns the flexible container's items when the items do not use all available space on the main-axis (horizontally).
+
+# align-items:
+-> It defines how flexbox items are aligned according to cross axis, within a line of flexbox container.
+
+# gap:
+-> The gap property defines the size of the gap between the rows and between the columns in flexbox.
+
+# flex-direction:
+-> It specifies the direction of the flexible items.
+
+# flex-wrap:
+>>>>>>> 02dffc735773b1e322e0467c49946a24184415ef
 -> It is used to specify whether the flex items are forced into single line or wrapped onto multiple lines.

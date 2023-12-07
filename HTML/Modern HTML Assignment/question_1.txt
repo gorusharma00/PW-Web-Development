@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Features of HTML 5:
 
 1.Intro of Audio and Video:
@@ -21,4 +22,29 @@ Features of HTML 5:
 - HTML 5 introduced several improvements to froms, including new input types like date, time, and color as well as new attributes such as placeholder, required and autofocus.
 
 7.Nav tag:
+=======
+Features of HTML 5:
+
+1.Intro of Audio and Video:
+- Audio and Video tags are two major addition to HTML 5.
+- It allows the developers to embed a video or audio on their website.
+
+2.Header and Footer:
+- With these new tags, there is no longer need to verify the two elements with a <div> tag.
+- Footer is placed at the end of web apge while header is placed at the start of the web page.
+
+3.Figure and Fig Caption:
+- HTML 5 allows to use the <figure> element to mark up a photo in a document and a <figcaption> element to define a caption for the photo.
+
+4.Local Storage:
+- HTML 5 introduced the local storage API, which allows to store the data on the user's device improving the performance and reducing the need for round- trips to the server.
+
+5.Geo Location API:
+- Geo location API is an API for obtaining the user's location enabling the applications to offer location based services.
+
+6.Form Improvements:
+- HTML 5 introduced several improvements to froms, including new input types like date, time, and color as well as new attributes such as placeholder, required and autofocus.
+
+7.Nav tag:
+>>>>>>> 02dffc735773b1e322e0467c49946a24184415ef
 - The nav tag defines a set of navigation links.

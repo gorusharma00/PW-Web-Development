@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 SEO:-
 -> SEO stands for Search Engine Optimization. It helps you to optimize your websites so that they have better rankings on search engine like Google, Yahoo, and Bing.
 -> The ultimate goal of seo is to rank higher in search engine results pages for relevant Keywords and phrases, which can increase the visibility, traffic and ultimately revenue for the website.
@@ -7,4 +8,15 @@ IMPORTANCE:-
 -> It helps to gain more visitors.
 -> It is important for social promotion of a website.
 -> It is important in improving the users experience.
+=======
+SEO:-
+-> SEO stands for Search Engine Optimization. It helps you to optimize your websites so that they have better rankings on search engine like Google, Yahoo, and Bing.
+-> The ultimate goal of seo is to rank higher in search engine results pages for relevant Keywords and phrases, which can increase the visibility, traffic and ultimately revenue for the website.
+-> Promoting a site to increase the number of links, is another SEO tactic.
+
+IMPORTANCE:-
+-> It helps to gain more visitors.
+-> It is important for social promotion of a website.
+-> It is important in improving the users experience.
+>>>>>>> 02dffc735773b1e322e0467c49946a24184415ef
 -> It plays an important role in improving the business of a commercial site.
