@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Question 2</title>
+</head>
+<body>
+    <h2>Click on button to get user names</h2>
+    <button id="username">Get user names</button>
+    <ul class="username-list">
+        
+    </ul>
+</body>
+<script>
+    const username = document.getElementById('username')
+    const list = document.querySelector(".username-list")
+
+    const url = 'https://jsonplaceholder.typicode.com/users'
+    const xhr = new XMLHttpRequest();
+    xhr.open('GET', url, true)
+    xhr.onreadystatechange = function(){
+        if(xhr.readyState === 4 && xhr.status === 200){
+            const data = JSON.parse(this.responseText)
+            for(let i of data){
+                list.innerHTML += `<li>${i.name}</li>`
+            }
+        }
+    }
+
+    username.addEventListener('click', function(){
+        xhr.send();
+    })
+</script>
+</html>
